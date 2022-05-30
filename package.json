@@ -34,12 +34,12 @@
     "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0"
   },
   "dependencies": {
+    "@examind/react-floater": "^0.7.8",
     "deep-diff": "^1.0.2",
     "deepmerge": "^4.2.2",
     "exenv": "^1.2.2",
     "is-lite": "^0.8.1",
     "nested-property": "^4.0.0",
-    "react-floater": "^0.7.3",
     "react-is": "^16.13.1",
     "scroll": "^3.0.1",
     "scrollparent": "^2.0.1",

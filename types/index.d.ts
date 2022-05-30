@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Props as FloaterType } from 'react-floater';
+import { Props as FloaterType } from '@examind/react-floater';
 
 export type valueof<T> = T[keyof T];
 

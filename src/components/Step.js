@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Floater from 'react-floater';
+import Floater from '@examind/react-floater';
 import treeChanges from 'tree-changes';
 import is from 'is-lite';
 
