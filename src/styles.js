@@ -6,7 +6,9 @@ const defaultOptions = {
   backgroundColor: '#fff',
   beaconSize: 36,
   overlayColor: 'rgba(0, 0, 0, 0.5)',
+  overlayMixBlendMode: 'hard-light',
   primaryColor: '#f04',
+  spotlightBackgroundColor: 'grey',
   spotlightShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
   textColor: '#333',
   zIndex: 100,
@@ -153,7 +155,7 @@ export default function getStyles(stepStyles = {}) {
     overlay: {
       ...overlay,
       backgroundColor: options.overlayColor,
-      mixBlendMode: 'hard-light',
+      mixBlendMode: options.overlayMixBlendMode,
     },
     overlayLegacy: {
       ...overlay,
@@ -164,7 +166,7 @@ export default function getStyles(stepStyles = {}) {
     },
     spotlight: {
       ...spotlight,
-      backgroundColor: 'gray',
+      backgroundColor: options.spotlightBackgroundColor,
     },
     spotlightLegacy: {
       ...spotlight,

@@ -1,6 +1,8 @@
 # Changes from gilbarbara/react-joyride
 
-Forked from https://github.com/gilbarbara/react-joyride to use @examind/react-floater instead of gilbarbara/react-floater.
+- Forked from https://github.com/gilbarbara/react-joyride to use @examind/react-floater instead of gilbarbara/react-floater
+- Added `overlayMixBlendMode` style override option
+- Added `spotlightBackgroundColor` style override option
 
 # React Joyride
 

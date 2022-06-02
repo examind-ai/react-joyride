@@ -10,7 +10,9 @@ const defaultOptions = {
   backgroundColor: '#fff',
   beaconSize: 36,
   overlayColor: 'rgba(0, 0, 0, 0.5)',
+  overlayMixBlendMode: 'hard-light',
   primaryColor: '#f04',
+  spotlightBackgroundColor: 'grey',
   spotlightShadow: '0 0 15px rgba(0, 0, 0, 0.5)',
   textColor: '#333',
   width: undefined,
@@ -64,4 +66,3 @@ Check [styles.js](https://github.com/gilbarbara/react-joyride/tree/3e08384415a83
 Or if you need finer control you can use you own components for the beacon and tooltip. Check the [custom components](custom-components.md) documentation.
 
 If you want to customize the arrow, check [react-floater](https://github.com/gilbarbara/react-floater) documentation.
-
