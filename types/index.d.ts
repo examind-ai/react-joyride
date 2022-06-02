@@ -70,7 +70,9 @@ export interface Styles {
     backgroundColor?: string;
     beaconSize?: number;
     overlayColor?: string;
+    overlayMixBlendMode?: string;
     primaryColor?: string;
+    spotlightBackgroundColor?: string;
     spotlightShadow?: string;
     textColor?: string;
     width?: string | number;
