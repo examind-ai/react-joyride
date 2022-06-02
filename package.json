@@ -34,7 +34,7 @@
     "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0"
   },
   "dependencies": {
-    "@examind/react-floater": "^0.7.8",
+    "@examind/react-floater": "^0.7.9",
     "deep-diff": "^1.0.2",
     "deepmerge": "^4.2.2",
     "exenv": "^1.2.2",
